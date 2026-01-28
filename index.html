@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hausa Culinary Heritage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">HAUSA CULINARY</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="header">
+    <div class="container">
+        <h1>Hausa Culinary Heritage</h1>
+        <p>Discover the authentic flavors and traditional recipes of Hausa cuisine</p>
+    </div>
+</header>
+
+<main class="container">
+    <section class="search-section">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Search for recipes...">
+        </div>
+        
+        <div class="categories" id="categoriesContainer">
+            <button class="category-btn active" data-category="all">All Recipes</button>
+            <button class="category-btn" data-category="main">Main Dishes</button>
+            <button class="category-btn" data-category="soup">Soups</button>
+            <button class="category-btn" data-category="meat">Meat</button>
+            <button class="category-btn" data-category="breakfast">Breakfast</button>
+            <button class="category-btn" data-category="snack">Snacks</button>
+            <button class="category-btn" data-category="drink">Drinks</button>
+        </div>
+    </section>
+
+    <section class="recipes-container">
+        <div class="recipes-grid" id="recipesGrid">
+            
+            <div class="recipe-card" data-category="main">
+                <div class="recipe-image"><img src="Tuwon shinkafa.jpg" alt="Tuwo Shinkafa"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Tuwo Shinkafa</h3>
+                    <p class="recipe-description">Traditional rice pudding served with rich soup.</p>
+                    <div class="recipe-meta"><span>4.8 <i class="fas fa-star"></i></span> <span>30 mins</span></div>
+                </div>
+            </div>
+            
+            <div class="recipe-card" data-category="soup">
+                <div class="recipe-image"><img src="miyan-kuka.jpg" alt="Miyan Kuka"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Miyan Kuka</h3>
+                    <p class="recipe-description">Nutritious baobab leaf soup.</p>
+                    <div class="recipe-meta"><span>4.6 <i class="fas fa-star"></i></span> <span>45 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="meat">
+                <div class="recipe-image"><img src="dambu.jfif" alt="Dambun Nama"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Dambun Nama</h3>
+                    <p class="recipe-description">Shredded dried beef delicacy.</p>
+                    <div class="recipe-meta"><span>4.9 <i class="fas fa-star"></i></span> <span>6 hours</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="breakfast">
+                <div class="recipe-image"><img src="funkaso.jfif" alt="Funkaso"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Funkaso</h3>
+                    <p class="recipe-description">Hausa pancakes made from wheat flour.</p>
+                    <div class="recipe-meta"><span>4.5 <i class="fas fa-star"></i></span> <span>20 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="snack">
+                <div class="recipe-image"><img src="danwake.jfif" alt="Dan Wake"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Dan Wake</h3>
+                    <p class="recipe-description">Steamed bean dumplings.</p>
+                    <div class="recipe-meta"><span>4.7 <i class="fas fa-star"></i></span> <span>40 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="drink">
+                <div class="recipe-image"><img src="kunun zaki.jfif" alt="Kunun Zaki"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Kunun Zaki</h3>
+                    <p class="recipe-description">Refreshing millet-based ginger drink.</p>
+                    <div class="recipe-meta"><span>4.4 <i class="fas fa-star"></i></span> <span>15 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="drink">
+                <div class="recipe-image"><img src="zobo.jfif" alt="Zobo Drink"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Zobo Drink</h3>
+                    <p class="recipe-description">Hibiscus drink with pineapple and ginger.</p>
+                    <div class="recipe-meta"><span>4.4 <i class="fas fa-star"></i></span> <span>15 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="drink">
+                <div class="recipe-image"><img src="kunun aya.jfif" alt="Kunun Aya"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Kunun Aya</h3>
+                    <p class="recipe-description">Tiger nut milk with dates and coconut.</p>
+                    <div class="recipe-meta"><span>4.4 <i class="fas fa-star"></i></span> <span>15 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="soup">
+                <div class="recipe-image"><img src="miyan taushe.jfif" alt="Miyan Taushe"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Miyan Taushe</h3>
+                    <p class="recipe-description">Savory pumpkin soup.</p>
+                    <div class="recipe-meta"><span>4.6 <i class="fas fa-star"></i></span> <span>45 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="meat">
+                <div class="recipe-image"><img src="suya.jfif" alt="Suya"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Suya</h3>
+                    <p class="recipe-description">Spicy grilled skewered meat.</p>
+                    <div class="recipe-meta"><span>4.9 <i class="fas fa-star"></i></span> <span>10 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="main">
+                <div class="recipe-image"><img src="shinkafa da wake.jfif" alt="Shinkafa da Wake"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Shinkafa da Wake</h3>
+                    <p class="recipe-description">Traditional rice and beans combination.</p>
+                    <div class="recipe-meta"><span>5.0 <i class="fas fa-star"></i></span> <span>1 hour</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="breakfast">
+                <div class="recipe-image"><img src="koko&kosai.jfif" alt="Koko and Kosai"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Koko and Kosai</h3>
+                    <p class="recipe-description">Millet porridge with bean cakes.</p>
+                    <div class="recipe-meta"><span>5.0 <i class="fas fa-star"></i></span> <span>1 hour</span></div>
+                </div>
+            </div>
+            <div class="recipe-card" data-category="soup">
+                <div class="recipe-image"><img src="kubewa.jfif" alt="Miyan Kubewa"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Miyan Kubewa</h3>
+                    <p class="recipe-description">Classic Hausa Okra soup, often served dried (busheshe) or fresh.</p>
+                    <div class="recipe-meta"><span>4.6 <i class="fas fa-star"></i></span> <span>35 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="drink">
+                <div class="recipe-image"><img src="tamarin.jfif" alt="Tamarin Drink"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Tamarin (Tsamiya)</h3>
+                    <p class="recipe-description">Tangy and refreshing juice made from tamarind pulp.</p>
+                    <div class="recipe-meta"><span>4.3 <i class="fas fa-star"></i></span> <span>10 mins</span></div>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-category="drink">
+                <div class="recipe-image"><img src="ginger.jfif" alt="Ginger Drink"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Ginger Drink</h3>
+                    <p class="recipe-description">Spicy and warming beverage made with fresh ginger and cloves.</p>
+                    <div class="recipe-meta"><span>4.5 <i class="fas fa-star"></i></span> <span>15 mins</span></div>
+                </div>
+            </div>
+            
+            <div class="recipe-card" data-category="main">
+                <div class="recipe-image"><img src="dambu rice.jfif" alt="Dambun Shinkafa"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Dambun Shinkafa</h3>
+                    <p class="recipe-description">A savory, steamed rice delicacy originating from Northern Nigeria. Unlike standard boiled rice, it is made using rice grits (coarsely crushed or broken rice) that is steamed to achieve a fluffy, couscous-like texture. 
+</p>
+                    <div class="recipe-meta"><span>4.8<i class="fas fa-star"></i></span> <span>1 hour 30 mins</span></div>
+                </div>
+            </div>
+            <div class="recipe-card" data-category="snack">
+                <div class="recipe-image"><img src="dublan.jfif" alt="dublan"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Dublan</h3>
+                    <p class="recipe-description">A traditional, sweet, and crispy deep-fried snack from Northern Nigeria, particularly popular among the Hausa people.</p>
+                    <div class="recipe-meta"><span>4.4 <i class="fas fa-star"></i></span> <span>1 hour</span></div>
+                </div>
+            </div><div class="recipe-card" data-category="snack">
+                <div class="recipe-image"><img src="alkaki.jfif" alt="Alkaki"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Alkaki</h3>
+                    <p class="recipe-description">A traditional Hausa snack originating from Northern Nigeria, often referred to as a "Hausa doughnut". It is a deep-fried treat made primarily from wheat, known for its dense texture and intense sweetness. </p>
+                    <div class="recipe-meta"><span>4.4 <i class="fas fa-star"></i></span> <span>1 hour</span></div>
+                </div>
+            </div><div class="recipe-card" data-category="breakfast">
+                <div class="recipe-image"><img src="masa.jfif" alt="Waina(masa)"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Waina(masa)</h3>
+                    <p class="recipe-description">A popular Northern Nigerian fermented rice cake, often called Waina or Sinasir, made from soaked rice, yeast, and sugar, enjoyed sweet or savory.</p>
+                    <div class="recipe-meta"><span>4.5 <i class="fas fa-star"></i></span> <span>1 hour</span></div>
+                </div>
+            </div>
+            <div class="recipe-card" data-category="drink">
+                <div class="recipe-image"><img src="fura.jfif" alt="Fura da Nono"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Fura da Nono</h3>
+                    <p class="recipe-description">A traditional, nutritious West African beverage popular in Northern Nigeria and other parts of West Africa, originating from the Fulani people.</p>
+                    <div class="recipe-meta"><span>4.5 <i class="fas fa-star"></i></span> <span>20 mins</span></div>
+                </div>
+            </div><div class="recipe-card" data-category="breakfast">
+                <div class="recipe-image"><img src="waina.jfif" alt="Waina Flour"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Waina Flour</h3>
+                    <p class="recipe-description">a quick-service Hausa traditional pancake from Northern Nigeria.</p>
+                    <div class="recipe-meta"><span>4.5 <i class="fas fa-star"></i></span> <span>30 mins</span></div>
+                </div>
+            </div>
+            ><div class="recipe-card" data-category="snack">
+                <div class="recipe-image"><img src="nakiya.jfif" alt="Nakiya"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Nakiya</h3>
+                    <p class="recipe-description">Nakiya can refer to a traditional Northern Nigerian snack, a given name of Arabic origin, or a traditional play.</p>
+                    <div class="recipe-meta"><span>4.3 <i class="fas fa-star"></i></span> <span>45 mins</span></div>
+                </div>
+            </div>
+            <div class="recipe-card" data-category="snack">
+                <div class="recipe-image"><img src="gireba.jfif" alt="Gireba"></div>
+                <div class="recipe-content">
+                    <h3 class="recipe-title">Gireba</h3>
+                    <p class="recipe-description">A popular traditional cookie from Northern Nigeria, particularly within the Hausa community.</p>
+                    <div class="recipe-meta"><span>4.5 <i class="fas fa-star"></i></span> <span>1 hour</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="container">
+            <h3>Hausa Culinary Heritage</h3>
+            <p>Preserving and sharing the rich culinary traditions of the Hausa people for generations to come.</p>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">Submit Recipe</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p class="copyright">&copy; 2026 Hausa Culinary Heritage. All traditional recipes and cultural knowledge preserved with respect.</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
